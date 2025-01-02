@@ -1,4 +1,29 @@
+# อำดง
+
+This diagram is just for fun for making a digram of words play from [this bksy thread](https://bsky.app/profile/mattmek.bsky.social/post/3lebb2p2thk2w).  
+Starts with "อำดง" and ends with "อำดง".
+
+## stats
+
+- Total words: 469
+- Total days: 6 (27 Dec 2023 - 1 Jan 2024)
+  - 27 Dec: 35 words
+  - 28 Dec: 92 words
+  - 29 Dec: 187 words
+  - 30 Dec: 59 words
+  - 31 Dec: 75 words
+  - 1 Jan: 21 words
+- Number of completed branch: 4
+- Number of dead branch: 11
+- Number of duplicated words: 27
+- Number of changed vowels/consonants: 19
+
+## diagram
+
 ```mermaid
+---
+title: "ประวัติศาสตร์การเล่นคำอำดง"
+---
 flowchart TD
   classDef start fill:#f542e9,color:#000
   classDef complete fill:#06c23e,color:#000
@@ -14,7 +39,7 @@ flowchart TD
     def5["เปลี่ยนสระ/ตัวสะกด"]:::trans
   end
 
-  subgraph day1 ["27 Dec"]
+  subgraph day1 ["27 Dec (35 คำ)"]
     a1["อำดง"]:::start --> a2["กลางดง"] --> a3["อุด้ง"] --> a4["อัสดง"] --> a5["ธุดงค์"]
     --> a6["กิวด้ง"] --> a7["โดดดิด่ง"] --> a8["เมียงดง"] --> a9["ยาดง"] --> a10["ยาดม"] 
     --> a11["ยาอม"] --> a12["วงกลม"] --> a13["คาเบะด้ง"] --> a14["กระด้ง"] --> a15["กระทง"]:::trans
@@ -24,7 +49,7 @@ flowchart TD
     --> a31["แชมปิญอง"] --> a32["อันยอง"] --> a33["ลองกอง"] --> a34["ชีฟอง"] --> a35["ยองๆ"] 
   end
 
-  subgraph day2 ["28 Dec"]
+  subgraph day2 ["28 Dec (92 คำ)"]
     a35 
     --> a36["ชเวดากอง"] --> a37["ฝอยทอง"] --> a38["ยามอุบากอง"] --> a39["ฌอง วัลฌอง"] --> a40["ฟองดอง"]
     --> a41["บาตอง"] --> a42["ใบตอง"] --> a43["คำพ้อง"] --> a44["คำคล้องจอง"] --> a45["ดอมเปริญอง"]
@@ -52,7 +77,7 @@ flowchart TD
     --> c6["ทองแดง"]:::dup --> c7["อาร์แซน ลูแปง"]
   end
 
-  subgraph day3 ["29 Dec"]
+  subgraph day3 ["29 Dec (187 คำ)"]
     b62 --> b63["ข้อเท้าแพลง"] --> b64["ของแสลง"] --> b65["ไข้อีดำอีแดง"]
     --> b66["อำแดง"]:::dup --> b67["อำดง"]:::complete
 
@@ -117,7 +142,7 @@ flowchart TD
     --> j36["เจ้าสัว"] --> j37["อาลัว"]:::dup --> j38["สามแม่ครัว"] --> j39["สลัว"]
   end
 
-  subgraph day4 ["30 Dec"]
+  subgraph day4 ["30 Dec (59 คำ)"]
     f51 --> f52["ลามะลิลา"] --> f53["ศกุนตลา"] --> f54["มัทนา"] --> f55["นางโมรา"]
     --> f56["รจนา"] --> f57["นางกุลา"] --> f58["อิลา"] --> f59["มโนราห์"] --> f60["ละเวงวันฬา"]
     --> f61["วิยะดา"] --> f62["วนิลา"] --> f63["ขอลา"] --> f64["ฟา"] --> f65["ขอขมา"]
@@ -140,7 +165,7 @@ flowchart TD
     --> j81["ปีงู"]:::dup
   end
 
-  subgraph day5 ["31 Dec"]
+  subgraph day5 ["31 Dec (75 คำ)"]
     
     j81 --> j82["รูปี"]:::trans --> j83["โรตี"] --> j84["ทันดูรี"] --> j85["ทีลอซู"]:::trans
     --> j86["ปลาทู"] --> j87["ปาป้า-ทูทู่"] --> j88["บางปู"] --> j89["ไอเลิฟยู"] --> j90["คธูลู"]
@@ -165,7 +190,7 @@ flowchart TD
     g9 --> i1["พริก"]:::cut
   end
 
-  subgraph day6 ["1 Jan"]
+  subgraph day6 ["1 Jan (21 คำ)"]
     j103 --> l1["กาว"]:::cut
 
     m49 --> m50["ผ้าห่ม"]
@@ -179,5 +204,4 @@ flowchart TD
     m55
     --> p1["ดั่งใจจง"] --> p2["รณรงค์"] --> p3["ไคฟง"]:::cut
   end
-
 ```
