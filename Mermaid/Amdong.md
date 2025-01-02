@@ -16,6 +16,19 @@ Starts with "อำดง" and ends with "อำดง".
 - Number of completed branch: 4
 - Number of dead branch: 11
 - Number of duplicated words: 27
+  - ลูบูแตง: 2
+  - อำแดง: 2
+  - กำแพง: 2
+  - บิ๊กแบง: 2
+  - ครองแครง: 2
+  - ทองแดง: 2
+  - โน้ต: 2
+  - โกรธ: 2
+  - ปราโมทย์: 2
+  - สมโภช: 2
+  - ดาวน์โหลด: 2
+  - อาลัว: 2
+  - งู: 3
 - Number of changed vowels/consonants: 19
 
 ## diagram
