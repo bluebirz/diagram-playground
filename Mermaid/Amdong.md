@@ -1,6 +1,6 @@
 # อำดง
 
-This diagram is just for fun for making a digram of words play from [this bksy thread](https://bsky.app/profile/mattmek.bsky.social/post/3lebb2p2thk2w).  
+This diagram is made just for fun for making a digram of words play from [this bluesky thread](https://bsky.app/profile/mattmek.bsky.social/post/3lebb2p2thk2w).  
 Starts with "อำดง" and ends with "อำดง".
 
 ## stats
