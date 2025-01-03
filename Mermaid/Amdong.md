@@ -6,7 +6,7 @@ Starts with "อำดง" and ends with "อำดง".
 ## stats
 
 - Total words: 469
-- Total days: 6 (27 Dec 2023 - 1 Jan 2024)
+- Total days: 6 (27 Dec 2024 - 1 Jan 2025)
   - 27 Dec: 35 words
   - 28 Dec: 92 words
   - 29 Dec: 187 words
