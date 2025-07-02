@@ -3,24 +3,26 @@
 doc: [ER Diagrams Syntax \| Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 
 ```mermaid
+---
+title: ER Diagram Example
+---
 erDiagram
-    title ER Diagram Example
-    entity "User" {
-        +id: int
-        +name: string
-        +email: string
-    }
-    entity "Order" {
-        +id: int
-        +date: date
-        +amount: float
-    }
-    entity "Product" {
-        +id: int
-        +name: string
-        +price: float
-    }
-    
-    User ||--o{ Order : places
-    Order ||--|{ Product : contains
+  USER {
+      int id
+      string name
+      string email
+  }
+  ORDER {
+      int id
+      date date
+      float amount
+  }
+  PRODUCT {
+      int id
+      string name
+      float price
+  }
+
+  USER ||--o{ ORDER : places
+  ORDER ||--|{ PRODUCT : contains
 ```
