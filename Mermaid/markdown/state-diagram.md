@@ -3,8 +3,10 @@
 doc: [State Diagram Syntax | Mermaid](https://mermaid.js.org/syntax/stateDiagram.html)
 
 ```mermaid
-stasteDiagram
-    title State Diagram Example
+---
+title: Program flow
+---
+stateDiagram-v2
     [*] --> Idle
     Idle --> Processing : start
     Processing --> Completed : finish
