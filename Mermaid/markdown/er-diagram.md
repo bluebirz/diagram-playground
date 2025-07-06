@@ -24,5 +24,5 @@ erDiagram
   }
 
   USER ||--o{ ORDER : places
-  ORDER ||--|{ PRODUCT : contains
+    ORDER ||--|{ PRODUCT : contains
 ```
